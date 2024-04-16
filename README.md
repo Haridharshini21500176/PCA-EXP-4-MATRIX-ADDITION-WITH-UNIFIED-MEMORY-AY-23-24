@@ -588,10 +588,10 @@ int main(int argc, char **argv)
 ```
 ## OUTPUT:
 ### With MemSets
-![](mem1.png)
+![](O1.png)
 
 ### Without MemSets
-![](wmem1.png)
+![](O2.png)
 
 ## RESULT:
-Thus the program has been executed by using unified memory. It is observed that removing memset function has given less 0.017889 (0.2) sec time.
+Thus the program has been executed by using unified memory. It is observed that removing memset function has given less 0.012105 (0.1) sec time.
